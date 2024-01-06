@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nicole</title>
-    <link>https://nicole.com/</link>
-    <description>Recent content on Nicole</description>
+    <title>Posts on Nicole</title>
+    <link>https://nicole.com/posts/</link>
+    <description>Recent content in Posts on Nicole</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nicole.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Create_a_blog</title>
-      <link>https://nicole.com/create_a_blog/</link>
-      <pubDate>Sat, 06 Jan 2024 16:47:48 +0800</pubDate>
-      <guid>https://nicole.com/create_a_blog/</guid>
-      <description>如何创建一个博客</description>
-    </item>
+    <atom:link href="https://nicole.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a New Theme</title>
       <link>https://nicole.com/posts/creating-a-new-theme/</link>
