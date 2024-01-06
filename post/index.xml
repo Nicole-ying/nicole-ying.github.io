@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on Nicole</title>
     <link>https://nicole-ying.github.io/post/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on Nicole</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 06 Jan 2024 16:28:21 +0800</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Sat, 06 Jan 2024 16:47:48 +0800</lastBuildDate>
     <atom:link href="https://nicole-ying.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Nlp_learning</title>
-      <link>https://nicole-ying.github.io/post/nlp_learning/</link>
-      <pubDate>Sat, 06 Jan 2024 16:28:21 +0800</pubDate>
-      <guid>https://nicole-ying.github.io/post/nlp_learning/</guid>
-      <description></description>
+      <title>使用Hugo创建博客</title>
+      <link>https://nicole-ying.github.io/post/create_a_blog/</link>
+      <pubDate>Sat, 06 Jan 2024 16:47:48 +0800</pubDate>
+      <guid>https://nicole-ying.github.io/post/create_a_blog/</guid>
+      <description>1. 前提 电脑里有git环境&#xA;2. windows安装Hugo Hugo有标准版和扩展版两个版本，推荐下载扩展版，区别在于扩展版提供了将Sass转译为CSS的 LibSass 转译器&#xA;Scoop安装Hugo扩展版 PowerShell先下载scoop，再执行以下命令安装hugo扩展版&#xA;scoop install hugo-extended&#xA;hugo被下载到./scoop/apps里&#xA;下载好hugo后还需要配置环境变量Path，bin目录里面存放hugo.exe文件&#xA;此电脑&amp;raquo;属性&amp;raquo;高级系统设置&amp;raquo;环境变量&amp;raquo;系统变量&amp;raquo;Path&amp;raquo;新建，加入D:\hugo\bin&#xA;3. 创建本地站点 hugo new site myblog&#xA;从官网下载主题，以本博客主题为例(myblog目录下执行)&#xA;git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c&#xA;4. 本地启动个人博客 4.1. 动态选择主题 hugo server -t m10c &amp;ndash;buildDrafts&#xA;4.2. 主题放入配置文件config.toml themes/m10c/exampleSite里的config.toml替换根目录下的config.toml，注意修改里面的themesDir路径，配置好后直接执行&#xA;hugo server&#xA;5. 写一篇本地博客 content/post里新建一个md文件&#xA;或者在根目录下使用命令&#xA;hugo new post/test.md&#xA;注意，博客文件必须放在content/post路径下&#xA;6. 个人博客部署到远端服务器 创建一个github仓库，命名为用户名.io&#xA;终端输入&#xA;hugo &amp;ndash;theme=m10c &amp;ndash;baseURL=&amp;ldquo;https://用户名.github.io/&amp;rdquo; &amp;ndash;buildDrafts&#xA;会生成一个public文件&#xA;进入public目录，执行&#xA;git init git add . git commit -m &amp;#34;your comment&amp;#34; git remote add origin sshURL git push 7.</description>
     </item>
   </channel>
 </rss>

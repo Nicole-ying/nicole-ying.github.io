@@ -2,109 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nicole</title>
-    <link>https://nicole.com/</link>
+    <link>https://nicole-ying.github.io/</link>
     <description>Recent content on Nicole</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nicole.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Jan 2024 16:47:48 +0800</lastBuildDate>
+    <atom:link href="https://nicole-ying.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Create_a_blog</title>
-      <link>https://nicole.com/create_a_blog/</link>
+      <title>使用Hugo创建博客</title>
+      <link>https://nicole-ying.github.io/post/create_a_blog/</link>
       <pubDate>Sat, 06 Jan 2024 16:47:48 +0800</pubDate>
-      <guid>https://nicole.com/create_a_blog/</guid>
-      <description>如何创建一个博客</description>
-    </item>
-    <item>
-      <title>Creating a New Theme</title>
-      <link>https://nicole.com/posts/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&#xA;We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://nicole.com/posts/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/goisforlovers/</guid>
-      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.&#xA;This document is a brief primer on using Go templates.</description>
-    </item>
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://nicole.com/posts/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.&#xA;Save it somewhere specific as we will be using it in the next step.&#xA;More complete instructions are available at Install Hugo&#xA;Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.&#xA;Follow the following steps:&#xA;Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
-    </item>
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://nicole.com/posts/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like&#xA;▾ &amp;lt;root&amp;gt;/&#xD;▾ images/&#xD;logo.png&#xD;should become&#xA;▾ &amp;lt;root&amp;gt;/&#xD;▾ static/&#xD;▾ images/&#xD;logo.png&#xD;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    <item>
-      <title>Test 9</title>
-      <link>https://nicole.com/posts/test-9/</link>
-      <pubDate>Thu, 09 Jan 1012 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/test-9/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut accumsan sem, imperdiet malesuada erat. Nam condimentum eu turpis a suscipit. Nulla leo arcu, feugiat ac orci eget, imperdiet posuere dui. In laoreet rutrum nisi vitae pretium. Aliquam id fermentum diam, et hendrerit mi. Praesent eget tristique augue. Donec a malesuada nulla, sit amet bibendum libero. Cras id eleifend enim.&#xA;You think you&amp;rsquo;ve got problems? What are you supposed to do if you are a manically depressed robot?</description>
-    </item>
-    <item>
-      <title>Test 8</title>
-      <link>https://nicole.com/posts/test-8/</link>
-      <pubDate>Wed, 08 Jan 1012 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/test-8/</guid>
-      <description>Test 8</description>
-    </item>
-    <item>
-      <title>Test 7</title>
-      <link>https://nicole.com/posts/test-7/</link>
-      <pubDate>Tue, 07 Jan 1012 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/test-7/</guid>
-      <description>Test 7</description>
-    </item>
-    <item>
-      <title>Test 6</title>
-      <link>https://nicole.com/posts/test-6/</link>
-      <pubDate>Mon, 06 Jan 1012 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/test-6/</guid>
-      <description>Test 6</description>
-    </item>
-    <item>
-      <title>Test 5</title>
-      <link>https://nicole.com/posts/test-5/</link>
-      <pubDate>Sun, 05 Jan 1012 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/test-5/</guid>
-      <description>Test 5</description>
-    </item>
-    <item>
-      <title>Test 4</title>
-      <link>https://nicole.com/posts/test-4/</link>
-      <pubDate>Sat, 04 Jan 1012 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/test-4/</guid>
-      <description>Test 4</description>
-    </item>
-    <item>
-      <title>Test 3</title>
-      <link>https://nicole.com/posts/test-3/</link>
-      <pubDate>Fri, 03 Jan 1012 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/test-3/</guid>
-      <description>Test 3</description>
-    </item>
-    <item>
-      <title>Test 2</title>
-      <link>https://nicole.com/posts/test-2/</link>
-      <pubDate>Thu, 02 Jan 1012 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/test-2/</guid>
-      <description>Test 2</description>
-    </item>
-    <item>
-      <title>Test 1</title>
-      <link>https://nicole.com/posts/test-1/</link>
-      <pubDate>Wed, 01 Jan 1012 00:00:00 +0000</pubDate>
-      <guid>https://nicole.com/posts/test-1/</guid>
-      <description>Test 1 I am referencing a footnote1&#xA;1package main 2 3import &amp;#34;fmt&amp;#34; 4 5func main() { 6 fmt.Println(&amp;#34;{linenos=inline}&amp;#34;) 7} 1 2 3 4 5 6 7 package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;{linenos=table}&amp;#34;) } Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in dictum tortor.&#xD;Morbi laoreet enim id sem euismod lobortis. Donec quam libero, bibendum non cursus vitae, dictum vel eros. I am the footnote&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+      <guid>https://nicole-ying.github.io/post/create_a_blog/</guid>
+      <description>1. 前提 电脑里有git环境&#xA;2. windows安装Hugo Hugo有标准版和扩展版两个版本，推荐下载扩展版，区别在于扩展版提供了将Sass转译为CSS的 LibSass 转译器&#xA;Scoop安装Hugo扩展版 PowerShell先下载scoop，再执行以下命令安装hugo扩展版&#xA;scoop install hugo-extended&#xA;hugo被下载到./scoop/apps里&#xA;下载好hugo后还需要配置环境变量Path，bin目录里面存放hugo.exe文件&#xA;此电脑&amp;raquo;属性&amp;raquo;高级系统设置&amp;raquo;环境变量&amp;raquo;系统变量&amp;raquo;Path&amp;raquo;新建，加入D:\hugo\bin&#xA;3. 创建本地站点 hugo new site myblog&#xA;从官网下载主题，以本博客主题为例(myblog目录下执行)&#xA;git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c&#xA;4. 本地启动个人博客 4.1. 动态选择主题 hugo server -t m10c &amp;ndash;buildDrafts&#xA;4.2. 主题放入配置文件config.toml themes/m10c/exampleSite里的config.toml替换根目录下的config.toml，注意修改里面的themesDir路径，配置好后直接执行&#xA;hugo server&#xA;5. 写一篇本地博客 content/post里新建一个md文件&#xA;或者在根目录下使用命令&#xA;hugo new post/test.md&#xA;注意，博客文件必须放在content/post路径下&#xA;6. 个人博客部署到远端服务器 创建一个github仓库，命名为用户名.io&#xA;终端输入&#xA;hugo &amp;ndash;theme=m10c &amp;ndash;baseURL=&amp;ldquo;https://用户名.github.io/&amp;rdquo; &amp;ndash;buildDrafts&#xA;会生成一个public文件&#xA;进入public目录，执行&#xA;git init git add . git commit -m &amp;#34;your comment&amp;#34; git remote add origin sshURL git push 7.</description>
     </item>
   </channel>
 </rss>
