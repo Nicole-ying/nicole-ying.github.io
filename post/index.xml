@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Nicole</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jan 2024 16:47:48 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Jun 2024 15:06:54 +0800</lastBuildDate>
     <atom:link href="https://nicole-ying.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://nicole-ying.github.io/post/java/</link>
+      <pubDate>Wed, 12 Jun 2024 15:06:54 +0800</pubDate>
+      <guid>https://nicole-ying.github.io/post/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>生成对抗网络笔记</title>
+      <link>https://nicole-ying.github.io/post/note_of_gan/</link>
+      <pubDate>Mon, 08 Jan 2024 14:16:21 +0800</pubDate>
+      <guid>https://nicole-ying.github.io/post/note_of_gan/</guid>
+      <description>%matplotlib inline&#xA;%matplotlib inline: 用于在IPython环境（例如Jupyter Notebook）中内嵌绘制图表。它的作用是使得你创建的所有Matplotlib图表都会直接嵌入到Notebook中，而不是在新窗口中打开。&#xA;plt.rcParams[&amp;lsquo;figure.figsize&amp;rsquo;] = (10.0, 8.0) # set default size of plots&#xA;plt.rcParams[&amp;lsquo;image.cmap&amp;rsquo;] = &amp;lsquo;gray&amp;rsquo;&#xA;plt.rcParams[&amp;lsquo;image.interpolation&amp;rsquo;] = &amp;rsquo;nearest&amp;rsquo;&#xA;plt.rcParams 它是一个配置字典，允许全局自定义绘图的外观和行为。&#xA;plt.rcParams[&amp;lsquo;figure.figsize&amp;rsquo;] = (10.0, 8.0)：设置了默认的图表大小。&#xA;plt.rcParams[&amp;lsquo;image.cmap&amp;rsquo;] = &amp;lsquo;gray&amp;rsquo;：设置了默认的颜色映射。颜色映射是一种将数值数据映射到颜色的方法。&#xA;plt.rcParams[&amp;lsquo;image.interpolation&amp;rsquo;] = &amp;rsquo;nearest&amp;rsquo;：设置了图像的插值方法。插值是在放大或缩小图像时使用的一种处理方法，用于估计新像素的值。&#xA;images = np.reshape(images, [images.shape[0], -1])&#xA;将一个多维数组 images 重塑为一个二维数组，其中第一个维度为图片数量，第二个-1是自动计算维度使数组保持大小不变&#xA;images.shape[0]&#xA;images 通常是一个三维或四维数组。例如，一个常见的四维数组形状是 (batch_size, height, width, channels)，在这种情况下，images.shape[0] 就是 batch_size，即批次中的图像数量。&#xA;sqrtn = int(np.ceil(np.sqrt(images.shape[0])))&#xA;np.ceil：将输入的每个元素向上取整到最接近的整数。&#xA;np.sqrt：用于计算数组中每个元素的平方根。&#xA;fig = plt.figure(figsize=(sqrtn, sqrtn))&#xA;plt.figure: 用于创建新的图形对象，以便在其上绘制图表。通过 figsize 参数来指定图形的宽度和高度，以英寸为单位。&#xA;gs = gridspec.GridSpec(sqrtn, sqrtn)&#xA;gridspec.GridSpec(): 创建一个网格布局，该网格布局将被用于在图中安排子图。可以放sqrtn X sqrnt个子图。</description>
+    </item>
     <item>
       <title>使用Hugo创建博客</title>
       <link>https://nicole-ying.github.io/post/create_a_blog/</link>
